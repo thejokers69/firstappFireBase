@@ -1,0 +1,17 @@
+{
+  "name": "firstappfromfirebase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "firebase serve",
+    "deploy": "firebase deploy"
+  },
+  "keywords": [],
+  "author": "Mohamed Lakssir",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
+    "firebase": "^11.0.1"
+  }
+}
